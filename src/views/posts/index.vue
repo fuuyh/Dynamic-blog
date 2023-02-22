@@ -40,7 +40,7 @@ export default {
       if (data.code !== 200) return
       // 将获取到的数据传递给 文章的数组
       // this.books = data.data
-      this.books = data.data
+      this.books = data.data.reverse()
       for (let i = 0; i < data.data.length; i++) {
         // this.books[i].createdAt = new Date(data.data[i].createdAt)
         const createdTime = new Date(data.data[i].createdAt)
