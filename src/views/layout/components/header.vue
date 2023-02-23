@@ -1,17 +1,17 @@
 <template>
   <header>
     <a class="header__title" @click="$router.push('/')">
-      Fu-Yuhao
+      Fu-Yh
     </a>
     <p class="header__content">
       Love for life and frontend tech.
     </p>
     <p class="header__links">
       <a @click="$router.push('/posts')">
-        <!-- <img src="@/assets/blog.png" alt="blog"> -->
-        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="iconify iconify--carbon" width="32" height="32" preserveAspectRatio="xMidYMid meet" viewBox="0 0 32 32"><path fill="#bbbbbb" d="m25.7 9.3l-7-7c-.2-.2-.4-.3-.7-.3H8c-1.1 0-2 .9-2 2v24c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V10c0-.3-.1-.5-.3-.7zM18 4.4l5.6 5.6H18V4.4zM24 28H8V4h8v6c0 1.1.9 2 2 2h6v16z"/><path fill="currentColor" d="M10 22h12v2H10zm0-6h12v2H10z"/></svg>
+        <img src="@/assets/blog.png" alt="blog">
+        <!-- <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="iconify iconify--carbon" width="32" height="32" preserveAspectRatio="xMidYMid meet" viewBox="0 0 32 32"><path fill="#bbbbbb" d="m25.7 9.3l-7-7c-.2-.2-.4-.3-.7-.3H8c-1.1 0-2 .9-2 2v24c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V10c0-.3-.1-.5-.3-.7zM18 4.4l5.6 5.6H18V4.4zM24 28H8V4h8v6c0 1.1.9 2 2 2h6v16z"/><path fill="currentColor" d="M10 22h12v2H10zm0-6h12v2H10z"/></svg> -->
       </a>
-      <a href="https://github.com/fuuuyuhao" target="_target">
+      <a href="https://github.com/fuuyh" target="_target">
         <img src="@/assets/github.png" alt="github">
       </a>
       <a href="mailto:fuyh98@outlook.com">
