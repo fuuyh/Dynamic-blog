@@ -55,12 +55,12 @@ header {
     align-items: center;
     margin: 0;
     a {
-      padding: 0 .8rem;
+      padding: 0.8rem;
       height: 2rem;
       object-fit: cover;
       img, svg {
-        height: 100%;
-        width: 100%;
+        height: 2rem;
+        width: 2rem;
         object-fit: cover;
       }
     }
