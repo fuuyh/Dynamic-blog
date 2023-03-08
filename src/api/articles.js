@@ -7,7 +7,8 @@ export const getAllArticles = () => {
     method: 'GET',
     url: '/api/articles',
     params: {
-      status: 'published'
+      status: 'published',
+      category: '63f965cf75a3975c1e21b31c'
     }
   })
 }

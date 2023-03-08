@@ -47,6 +47,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+// @import '@/styles/mixin.scss';
 .back__home {
   margin-top: 3rem;
   display: block;
